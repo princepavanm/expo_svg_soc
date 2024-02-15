@@ -1,0 +1,111 @@
+# vsim -quiet -assertdebug -voptargs="+acc=blnr" tb_fpga_shield -64 -c -do "radix hex; run 40000us ;quit -f" 
+# Start time: 06:26:36 on Feb 15,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# radix hex
+# hexadecimal
+#  run 40000us 
+# Loading CXDT from parameter IMAGENAME (./CXDT.bin)
+# *
+# * Max. address:                        001ffff
+# * Begin of full protection address:    0000000
+# * Begin of half protection address:    0010000
+# * Begin of quarter protection address: 0018000
+# *
+# ===========================================================
+# 
+#  nvSRAM Power UP 
+# *
+# * Max. address:                        001ffff
+# * Begin of full protection address:    0000000
+# * Begin of half protection address:    0010000
+# * Begin of quarter protection address: 0018000
+# *
+# ===========================================================
+# 
+#  nvSRAM Power UP 
+# *
+# * Max. address:                        001ffff
+# * Begin of full protection address:    0000000
+# * Begin of half protection address:    0010000
+# * Begin of quarter protection address: 0018000
+# *
+# ===========================================================
+# 
+#  nvSRAM Power UP 
+# 217080.000ns UART:  
+# 361760.000ns UART: Cortex-M3 DesignStart - APB slave mux test - revision $Revision: 243193 $ 
+# 374720.000ns UART:  
+# 482440.000ns UART:  - Detecting if default peripherals are present ... 
+# 495400.000ns UART:  
+# 529280.000ns UART: 0: timer 0 
+# 631600.000ns UART:   All ID values matched : device present 
+# 644560.000ns UART:  
+# 678720.000ns UART: 1: timer 1 
+# 781040.000ns UART:   All ID values matched : device present 
+# 794000.000ns UART:  
+# 833760.000ns UART: 2: dual timer 
+# 936040.000ns UART:   All ID values matched : device present 
+# 949000.000ns UART:  
+# 979640.000ns UART: 3: blank 
+# 1088840.000ns UART:   All ID values are 0   : device not present 
+# 1101800.000ns UART:  
+# 1134240.000ns UART: 4: UART 0 
+# 1236520.000ns UART:   All ID values matched : device present 
+# 1249480.000ns UART:  
+# 1281920.000ns UART: 5: UART 1 
+# 1384200.000ns UART:   All ID values matched : device present 
+# 1397160.000ns UART:  
+# 1424200.000ns UART: 6: RTC 
+# 1526480.000ns UART:   All ID values matched : device present 
+# 1539440.000ns UART:  
+# 1570080.000ns UART: 7: blank 
+# 1679240.000ns UART:   All ID values are 0   : device not present 
+# 1692200.000ns UART:  
+# 1728240.000ns UART: 8: Watchdog 
+# 1830560.000ns UART:   All ID values matched : device present 
+# 1843520.000ns UART:  
+# 1874160.000ns UART: 9: blank 
+# 1983320.000ns UART:   All ID values are 0   : device not present 
+# 1996280.000ns UART:  
+# 2028720.000ns UART: 10: blank 
+# 2137920.000ns UART:   All ID values are 0   : device not present 
+# 2150880.000ns UART:  
+# 2183320.000ns UART: 11: blank 
+# 2292480.000ns UART:   All ID values are 0   : device not present 
+# 2305440.000ns UART:  
+# 2366680.000ns UART: 12: APB expansion port 12 
+# 2475880.000ns UART:   All ID values are 0   : device not present 
+# 2488840.000ns UART:  
+# 2550080.000ns UART: 13: APB expansion port 13 
+# 2659240.000ns UART:   All ID values are 0   : device not present 
+# 2672200.000ns UART:  
+# 2733440.000ns UART: 14: APB expansion port 14 
+# 2842640.000ns UART:   All ID values are 0   : device not present 
+# 2855600.000ns UART:  
+# 2886200.000ns UART: 15: TRNG 
+# 2983520.000ns UART:   Version register matched   : device present 
+# 2996480.000ns UART:  
+# 3012480.000ns UART:  
+# 3056040.000ns UART: ** TEST PASSED ** 
+# 3059680.000ns UART: Test Ended
+# ** Note: $stop    : ../verilog/cmsdk_uart_capture_ard.v(240)
+#    Time: 3059680 ns  Iteration: 1  Instance: /tb_fpga_shield/u_cmsdk_uart_capture_ard
+# Break in NamedBeginStat p_sim_end at ../verilog/cmsdk_uart_capture_ard.v line 240
+# Stopped at ../verilog/cmsdk_uart_capture_ard.v line 240
+# quit -f
+# End time: 06:27:23 on Feb 15,2024, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 0

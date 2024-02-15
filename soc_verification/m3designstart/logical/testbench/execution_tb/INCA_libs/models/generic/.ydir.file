@@ -1,0 +1,6 @@
+../../models/generic/slave_bus_ifc.v
+../../models/generic/slave_bus_ifc.vlib
+../../models/generic/CORTEXM3INTEGRATIONDS.v
+../../models/generic/CORTEXM3INTEGRATIONDS.vlib
+../../models/generic/p_beid_peripheral_f0_static_reg.v
+../../models/generic/p_beid_peripheral_f0_static_reg.vlib

@@ -1,0 +1,42 @@
+## README for the directory structure
+cmsdk - RTL and memory models are archived here.
+cortexm3_model - ARM cortexm3 design simulation model
+docs - all documenation related to ARM cortex
+m3designstart - testbench, testcases and execution directories available
+  - fpga : fpga output files
+  - software
+    - common
+      - validation - All test cases source files
+      - bootloader - UARTINIT and few other macros
+      - demos - demo test source files
+      - dhry - drystone test cases
+      - scripts
+    - cmsis 
+      - Device/ARM/CM3DS/Include - include files CM3DS_MPS2_driver.h, CM3DS_MPS2.h, system_CM3DS.h
+      - Device/ARM/CM3DS/Source/CM3DS_MPS2_driver.c - source files
+  - logical : 
+     - cortexm3integration_ds, 
+     - fpga_top/verilog
+     - models
+     - testbench
+       - execution_tb
+       - testcodes
+       - trng
+       - verilog
+  - 
+m3designstart_iot - IOT top
+rtc_pl031 - RTC module RTL
+smm - Contains the modules apb_i2s  ds703_scc_r0p3  mps2_ahb_decoder  pl022_ssp  smm_common_fpga  spi2apb3  vga_edk
+trng - 
+
+#Steps to compile and execute:
+#===============================
+#add setenv LD_LIBRARY_PATH /opt/glibc-2.14/lib in cshrc
+source cshrc
+make clean
+make compile
+make tests
+#comment setenv LD_LIBRARY_PATH /opt/glibc-2.14/lib in cshrc
+make run TESTNAME=timer_tests
+
+

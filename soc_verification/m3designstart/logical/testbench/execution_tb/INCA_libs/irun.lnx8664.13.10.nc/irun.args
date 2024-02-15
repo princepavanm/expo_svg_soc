@@ -1,0 +1,13 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
++access+rwc
+-uvm
+-f
+tbench.vc
++define+IUS_BUILD
+-elaborate
+-nospecify
++define+VCD_ON
+-64bit

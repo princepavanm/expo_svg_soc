@@ -1,0 +1,6 @@
+../../../../smm/logical/apb_i2s/verilog/slave_bus_ifc.v
+../../../../smm/logical/apb_i2s/verilog/slave_bus_ifc.vlib
+../../../../smm/logical/apb_i2s/verilog/CORTEXM3INTEGRATIONDS.v
+../../../../smm/logical/apb_i2s/verilog/CORTEXM3INTEGRATIONDS.vlib
+../../../../smm/logical/apb_i2s/verilog/p_beid_peripheral_f0_static_reg.v
+../../../../smm/logical/apb_i2s/verilog/p_beid_peripheral_f0_static_reg.vlib

@@ -1,0 +1,6 @@
+../cxdt/verilog/slave_bus_ifc.v
+../cxdt/verilog/slave_bus_ifc.vlib
+../cxdt/verilog/CORTEXM3INTEGRATIONDS.v
+../cxdt/verilog/CORTEXM3INTEGRATIONDS.vlib
+../cxdt/verilog/p_beid_peripheral_f0_static_reg.v
+../cxdt/verilog/p_beid_peripheral_f0_static_reg.vlib

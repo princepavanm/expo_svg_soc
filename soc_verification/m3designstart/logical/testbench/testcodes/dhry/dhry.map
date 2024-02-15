@@ -1,0 +1,954 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o (exit)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-init.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o (__libc_init_array)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o)
+                              /tmp/ccrsRCDK.o (malloc)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memset.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o (memset)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-freer.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o) (_free_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o) (_malloc_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-printf.o)
+                              /tmp/ccrsRCDK.o (printf)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putchar.o)
+                              /tmp/ccrsRCDK.o (putchar)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-puts.o)
+                              /tmp/ccrsRCDK.o (puts)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strcmp.o)
+                              /tmp/ccIe5ioU.o (strcmp)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wbuf.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-puts.o) (__swbuf_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wsetup.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-puts.o) (__swsetup_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fflush.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wbuf.o) (_fflush_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-printf.o) (__sinit)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fwalk.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o) (_fwalk)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-makebuf.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wsetup.o) (__smakebuf_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-printf.o) (_vfprintf_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf.o) (_printf_i)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putc.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putchar.o) (_putc_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-reent.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o) (errno)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-stdio.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o) (__sread)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-writer.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-stdio.o) (_write_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-closer.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-stdio.o) (_close_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fstatr.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-makebuf.o) (_fstat_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fvwrite.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf.o) (__sfvwrite_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-isattyr.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-makebuf.o) (_isatty_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-lseekr.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-stdio.o) (_lseek_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memchr-stub.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf.o) (memchr)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memcpy-stub.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fvwrite.o) (memcpy)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memmove.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fvwrite.o) (memmove)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-reallocr.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fvwrite.o) (_realloc_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-readr.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-stdio.o) (_read_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-msizer.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(close.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-closer.o) (_close)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(fstat.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fstatr.o) (_fstat)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(isatty.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-isattyr.o) (_isatty)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(lseek.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-lseekr.o) (_lseek)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(read.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-readr.o) (_read)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o) (_sbrk)
+/home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(_exit.o)
+                              /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-reent.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+ .text          0x0000000000000000       0x40 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .data          0x0000000000000000        0x4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .bss           0x0000000000000000       0x1c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .init_array    0x0000000000000000        0x4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .fini_array    0x0000000000000000        0x4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .eh_frame      0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .text          0x0000000000000000       0x74 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .ARM.exidx     0x0000000000000000        0x8 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .ARM.attributes
+                0x0000000000000000       0x1b /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+ .data          0x0000000000000000        0x0 /tmp/cc7ef8Lr.o
+ .bss           0x0000000000000000        0x0 /tmp/cc7ef8Lr.o
+ .data          0x0000000000000000        0x0 /tmp/ccrsRCDK.o
+ .data          0x0000000000000000        0x0 /tmp/ccIe5ioU.o
+ .bss           0x0000000000000000        0x0 /tmp/ccIe5ioU.o
+ .data          0x0000000000000000        0x0 /tmp/ccTHQgf4.o
+ .bss           0x0000000000000000        0x0 /tmp/ccTHQgf4.o
+ .data          0x0000000000000000        0x0 /tmp/ccorcQee.o
+ .bss           0x0000000000000000        0x0 /tmp/ccorcQee.o
+ .bss           0x0000000000000000        0x0 /tmp/ccD0i9io.o
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x0000000000000000       0x48 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000000000       0x2c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o)
+ .text.free     0x0000000000000000       0x10 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-freer.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-printf.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-printf.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-printf.o)
+ .text._printf_r
+                0x0000000000000000       0x28 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-printf.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putchar.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putchar.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putchar.o)
+ .text._putchar_r
+                0x0000000000000000       0x1e /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putchar.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-puts.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-puts.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-puts.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strcmp.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strcmp.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wbuf.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wbuf.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wbuf.o)
+ .text.__swbuf  0x0000000000000000       0x10 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wbuf.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wsetup.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wsetup.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wsetup.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fflush.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fflush.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fflush.o)
+ .text.fflush   0x0000000000000000       0x24 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fflush.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x0000000000000000        0x4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x0000000000000000        0x4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+ .text._cleanup
+                0x0000000000000000        0xc /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x0000000000000000        0x2 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+ .text.__sfp_lock_release
+                0x0000000000000000        0x2 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+ .text.__sinit_lock_acquire
+                0x0000000000000000        0x2 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+ .text.__sinit_lock_release
+                0x0000000000000000        0x2 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x0000000000000000       0x14 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x0000000000000000       0x14 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fwalk.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fwalk.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fwalk.o)
+ .text._fwalk   0x0000000000000000       0x38 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fwalk.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-makebuf.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-makebuf.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-makebuf.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sprint_r
+                0x0000000000000000       0x1a /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.vfprintf
+                0x0000000000000000       0x14 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putc.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putc.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putc.o)
+ .text.putc     0x0000000000000000       0x10 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putc.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000000000000000       0x1a /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x0000000000000000       0xb8 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-stdio.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-stdio.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-stdio.o)
+ .text.__seofread
+                0x0000000000000000        0x4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-stdio.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-writer.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-writer.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-writer.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-closer.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-closer.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-closer.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fstatr.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fstatr.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fstatr.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fvwrite.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fvwrite.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x0000000000000000      0x29c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fvwrite.o)
+ .debug_frame   0x0000000000000000       0x3c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fvwrite.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-isattyr.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-isattyr.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-isattyr.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-lseekr.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-lseekr.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-lseekr.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memchr-stub.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memchr-stub.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memchr-stub.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .text.memcpy   0x0000000000000000       0x16 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000000000       0x28 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memmove.o)
+ .text.memmove  0x0000000000000000       0x32 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000000000       0x28 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memmove.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-reallocr.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-reallocr.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-reallocr.o)
+ .text._realloc_r
+                0x0000000000000000       0x4c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x0000000000000000       0x3c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-reallocr.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-reallocr.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-readr.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-readr.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-readr.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-msizer.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-msizer.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-msizer.o)
+ .text._malloc_usable_size_r
+                0x0000000000000000       0x10 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x0000000000000000       0x20 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-msizer.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(close.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(close.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(close.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(fstat.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(fstat.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(fstat.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(isatty.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(isatty.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(isatty.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(lseek.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(lseek.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(lseek.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(read.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(read.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(read.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(_exit.o)
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(_exit.o)
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+ .ARM.attributes
+                0x0000000000000000       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+ .text          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+ .data          0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+ .bss           0x0000000000000000        0x0 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+ .init          0x0000000000000000        0x8 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+ .fini          0x0000000000000000        0x8 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+ .ARM.attributes
+                0x0000000000000000       0x1d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000010000 xr
+RAM              0x0000000020000000 0x000000000000fc00 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o
+LOAD /tmp/cc7ef8Lr.o
+LOAD /tmp/ccrsRCDK.o
+LOAD /tmp/ccIe5ioU.o
+LOAD /tmp/ccTHQgf4.o
+LOAD /tmp/ccorcQee.o
+LOAD /tmp/ccD0i9io.o
+START GROUP
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a
+END GROUP
+START GROUP
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a
+END GROUP
+START GROUP
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc_nano.a
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a
+END GROUP
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtend.o
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+START GROUP
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a
+LOAD /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a
+END GROUP
+
+.text           0x0000000000000000     0x1e6b
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000      0x124 /tmp/cc7ef8Lr.o
+                0x0000000000000000                __isr_vector
+ *(.text*)
+ .text          0x0000000000000124       0xcc /tmp/cc7ef8Lr.o
+                0x0000000000000124                Reset_Handler
+                0x000000000000016c                NMI_Handler
+                0x000000000000016e                HardFault_Handler
+                0x0000000000000170                MemManage_Handler
+                0x0000000000000172                BusFault_Handler
+                0x0000000000000174                UsageFault_Handler
+                0x0000000000000176                SVC_Handler
+                0x0000000000000178                DebugMon_Handler
+                0x000000000000017a                PendSV_Handler
+                0x000000000000017c                SysTick_Handler
+                0x000000000000017e                UART0_Handler
+                0x0000000000000180                Spare1_Handler
+                0x0000000000000182                UART1_Handler
+                0x0000000000000184                Spare3_Handler
+                0x0000000000000186                Spare4_Handler
+                0x0000000000000188                RTC_Handler
+                0x000000000000018a                PORT0_COMB_Handler
+                0x000000000000018c                PORT1_COMB_Handler
+                0x000000000000018e                TIMER0_Handler
+                0x0000000000000190                TIMER1_Handler
+                0x0000000000000192                DUALTIMER_HANDLER
+                0x0000000000000194                Spare11_Handler
+                0x0000000000000196                UARTOVF_Handler
+                0x0000000000000198                Spare13_Handler
+                0x000000000000019a                Spare14_Handler
+                0x000000000000019c                TSC_Handler
+                0x000000000000019e                PORT0_0_Handler
+                0x00000000000001a0                PORT0_1_Handler
+                0x00000000000001a2                PORT0_2_Handler
+                0x00000000000001a4                PORT0_3_Handler
+                0x00000000000001a6                PORT0_4_Handler
+                0x00000000000001a8                PORT0_5_Handler
+                0x00000000000001aa                PORT0_6_Handler
+                0x00000000000001ac                PORT0_7_Handler
+                0x00000000000001ae                PORT0_8_Handler
+                0x00000000000001b0                PORT0_9_Handler
+                0x00000000000001b2                PORT0_10_Handler
+                0x00000000000001b4                PORT0_11_Handler
+                0x00000000000001b6                PORT0_12_Handler
+                0x00000000000001b8                PORT0_13_Handler
+                0x00000000000001ba                PORT0_14_Handler
+                0x00000000000001bc                PORT0_15_Handler
+                0x00000000000001be                SYSERROR_Handler
+                0x00000000000001c0                EFLASH_Handler
+                0x00000000000001c2                CORDIO0_Handler
+                0x00000000000001c4                CORDIO1_Handler
+                0x00000000000001c6                CORDIO2_Handler
+                0x00000000000001c8                CORDIO3_Handler
+                0x00000000000001ca                CORDIO4_Handler
+                0x00000000000001cc                CORDIO5_Handler
+                0x00000000000001ce                CORDIO6_Handler
+                0x00000000000001d0                CORDIO7_Handler
+                0x00000000000001d2                PORT2_COMB_Handler
+                0x00000000000001d4                PORT3_COMB_Handler
+                0x00000000000001d6                TRNG_Handler
+                0x00000000000001d8                UART2_Handler
+                0x00000000000001da                UART3_Handler
+                0x00000000000001dc                ETHERNET_Handler
+                0x00000000000001de                I2S_Handler
+                0x00000000000001e0                MPS2_SPI0_Handler
+                0x00000000000001e2                MPS2_SPI1_Handler
+                0x00000000000001e4                MPS2_SPI2_Handler
+                0x00000000000001e6                MPS2_SPI3_Handler
+                0x00000000000001e8                MPS2_SPI4_Handler
+                0x00000000000001ea                PORT4_COMB_Handler
+                0x00000000000001ec                PORT5_COMB_Handler
+                0x00000000000001ee                UART4_Handler
+ .text          0x00000000000001f0       0xe0 /tmp/ccrsRCDK.o
+                0x00000000000001f0                Proc_2
+                0x0000000000000208                Proc_3
+                0x0000000000000224                Proc_1
+                0x00000000000002a4                Proc_4
+                0x00000000000002c0                Proc_5
+ .text.startup  0x00000000000002d0      0x44c /tmp/ccrsRCDK.o
+                0x00000000000002d0                main
+ .text          0x000000000000071c       0xe0 /tmp/ccIe5ioU.o
+                0x000000000000071c                Proc_7
+                0x0000000000000724                Proc_8
+                0x0000000000000764                Func_1
+                0x0000000000000778                Func_2
+                0x00000000000007ac                Func_3
+                0x00000000000007b8                Proc_6
+ .text          0x00000000000007fc       0x1c /tmp/ccTHQgf4.o
+                0x00000000000007fc                _write
+ .text          0x0000000000000818       0x3c /tmp/ccorcQee.o
+                0x0000000000000818                UartStdOutInit
+                0x0000000000000828                UartPutc
+                0x0000000000000838                UartGetc
+                0x0000000000000848                UartEndSimulation
+ .text          0x0000000000000854       0x14 /tmp/ccD0i9io.o
+                0x0000000000000854                SystemInit
+                0x0000000000000864                SystemCoreClockUpdate
+ .text.exit     0x0000000000000868       0x28 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o)
+                0x0000000000000868                exit
+ .text.malloc   0x0000000000000890       0x10 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o)
+                0x0000000000000890                malloc
+ .text.memset   0x00000000000008a0       0x10 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memset.o)
+                0x00000000000008a0                memset
+ .text._free_r  0x00000000000008b0       0x98 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-freer.o)
+                0x00000000000008b0                _free_r
+ .text._malloc_r
+                0x0000000000000948       0xb4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000000000948                _malloc_r
+ .text.printf   0x00000000000009fc       0x30 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-printf.o)
+                0x00000000000009fc                printf
+                0x00000000000009fc                iprintf
+ .text.putchar  0x0000000000000a2c       0x28 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putchar.o)
+                0x0000000000000a2c                putchar
+ .text._puts_r  0x0000000000000a54       0xb8 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-puts.o)
+                0x0000000000000a54                _puts_r
+ .text.puts     0x0000000000000b0c       0x10 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-puts.o)
+                0x0000000000000b0c                puts
+ .text._sbrk_r  0x0000000000000b1c       0x20 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o)
+                0x0000000000000b1c                _sbrk_r
+ .text          0x0000000000000b3c       0x14 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strcmp.o)
+                0x0000000000000b3c                strcmp
+ .text.__swbuf_r
+                0x0000000000000b50       0xa4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wbuf.o)
+                0x0000000000000b50                __swbuf_r
+ .text.__swsetup_r
+                0x0000000000000bf4       0xdc /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wsetup.o)
+                0x0000000000000bf4                __swsetup_r
+ .text.__sflush_r
+                0x0000000000000cd0      0x10c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fflush.o)
+                0x0000000000000cd0                __sflush_r
+ .text._fflush_r
+                0x0000000000000ddc       0x54 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fflush.o)
+                0x0000000000000ddc                _fflush_r
+ .text.std      0x0000000000000e30       0x48 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0x0000000000000e78        0xc /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+                0x0000000000000e78                _cleanup_r
+ .text.__sfmoreglue
+                0x0000000000000e84       0x2c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+                0x0000000000000e84                __sfmoreglue
+ .text.__sinit  0x0000000000000eb0       0x60 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+                0x0000000000000eb0                __sinit
+ .text.__sfp    0x0000000000000f10       0x78 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+                0x0000000000000f10                __sfp
+ .text._fwalk_reent
+                0x0000000000000f88       0x3c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fwalk.o)
+                0x0000000000000f88                _fwalk_reent
+ .text.__swhatbuf_r
+                0x0000000000000fc4       0x48 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-makebuf.o)
+                0x0000000000000fc4                __swhatbuf_r
+ .text.__smakebuf_r
+                0x000000000000100c       0x80 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-makebuf.o)
+                0x000000000000100c                __smakebuf_r
+ .text.__malloc_lock
+                0x000000000000108c        0x2 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
+                0x000000000000108c                __malloc_lock
+ .text.__malloc_unlock
+                0x000000000000108e        0x2 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
+                0x000000000000108e                __malloc_unlock
+ .text.__sfputc_r
+                0x0000000000001090       0x2a /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputs_r
+                0x00000000000010ba       0x24 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf.o)
+                0x00000000000010ba                __sfputs_r
+ *fill*         0x00000000000010de        0x2 
+ .text._vfprintf_r
+                0x00000000000010e0      0x228 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf.o)
+                0x00000000000010e0                _vfiprintf_r
+                0x00000000000010e0                _vfprintf_r
+ .text._printf_common
+                0x0000000000001308       0xec /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000000001308                _printf_common
+ .text._printf_i
+                0x00000000000013f4      0x224 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000000000013f4                _printf_i
+ .text._putc_r  0x0000000000001618       0x6c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putc.o)
+                0x0000000000001618                _putc_r
+ .text.__sread  0x0000000000001684       0x22 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-stdio.o)
+                0x0000000000001684                __sread
+ .text.__swrite
+                0x00000000000016a6       0x38 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-stdio.o)
+                0x00000000000016a6                __swrite
+ .text.__sseek  0x00000000000016de       0x24 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-stdio.o)
+                0x00000000000016de                __sseek
+ .text.__sclose
+                0x0000000000001702        0x8 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-stdio.o)
+                0x0000000000001702                __sclose
+ *fill*         0x000000000000170a        0x2 
+ .text._write_r
+                0x000000000000170c       0x24 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-writer.o)
+                0x000000000000170c                _write_r
+ .text._close_r
+                0x0000000000001730       0x20 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-closer.o)
+                0x0000000000001730                _close_r
+ .text._fstat_r
+                0x0000000000001750       0x24 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fstatr.o)
+                0x0000000000001750                _fstat_r
+ .text._isatty_r
+                0x0000000000001774       0x20 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-isattyr.o)
+                0x0000000000001774                _isatty_r
+ .text._lseek_r
+                0x0000000000001794       0x24 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-lseekr.o)
+                0x0000000000001794                _lseek_r
+ .text.memchr   0x00000000000017b8       0x1c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memchr-stub.o)
+                0x00000000000017b8                memchr
+ .text._read_r  0x00000000000017d4       0x24 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-readr.o)
+                0x00000000000017d4                _read_r
+ .text._close   0x00000000000017f8       0x10 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(close.o)
+                0x00000000000017f8                _close
+ .text._fstat   0x0000000000001808       0x10 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(fstat.o)
+                0x0000000000001808                _fstat
+ .text._isatty  0x0000000000001818       0x10 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(isatty.o)
+                0x0000000000001818                _isatty
+ .text._lseek   0x0000000000001828       0x10 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(lseek.o)
+                0x0000000000001828                _lseek
+ .text._read    0x0000000000001838       0x10 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(read.o)
+                0x0000000000001838                _read
+ .text._sbrk    0x0000000000001848       0x1c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+                0x0000000000001848                _sbrk
+ .text._exit    0x0000000000001864        0x4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(_exit.o)
+                0x0000000000001864                _exit
+ *(.init)
+ .init          0x0000000000001868        0x4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+                0x0000000000001868                _init
+ *(.fini)
+ .fini          0x000000000000186c        0x4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+                0x000000000000186c                _fini
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.str1.4
+                0x0000000000001870      0x564 /tmp/ccrsRCDK.o
+                                        0x563 (size before relaxing)
+ .rodata._global_impure_ptr
+                0x0000000000001dd4        0x4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+                0x0000000000001dd4                _global_impure_ptr
+ .rodata.__sf_fake_stderr
+                0x0000000000001dd8       0x20 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+                0x0000000000001dd8                __sf_fake_stderr
+ .rodata.__sf_fake_stdin
+                0x0000000000001df8       0x20 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+                0x0000000000001df8                __sf_fake_stdin
+ .rodata.__sf_fake_stdout
+                0x0000000000001e18       0x20 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+                0x0000000000001e18                __sf_fake_stdout
+ .rodata._vfprintf_r.str1.1
+                0x0000000000001e38       0x11 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf.o)
+ .rodata._printf_i.str1.1
+                0x0000000000001e49       0x22 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ *(.eh_frame*)
+
+.glue_7         0x0000000000001e6c        0x0
+ .glue_7        0x0000000000001e6c        0x0 linker stubs
+
+.glue_7t        0x0000000000001e6c        0x0
+ .glue_7t       0x0000000000001e6c        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000001e6c        0x0
+ .vfp11_veneer  0x0000000000001e6c        0x0 linker stubs
+
+.v4_bx          0x0000000000001e6c        0x0
+ .v4_bx         0x0000000000001e6c        0x0 linker stubs
+
+.iplt           0x0000000000001e6c        0x0
+ .iplt          0x0000000000001e6c        0x0 /tmp/cc7ef8Lr.o
+
+.rel.dyn        0x0000000000001e6c        0x0
+ .rel.iplt      0x0000000000001e6c        0x0 /tmp/cc7ef8Lr.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000000001e6c                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000000000001e6c                __exidx_end = .
+                0x0000000000001e6c                __etext = .
+
+.data           0x0000000020000000       0x68 load address 0x0000000000001e6b
+                0x0000000020000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data          0x0000000020000000        0x4 /tmp/ccD0i9io.o
+                0x0000000020000000                SystemCoreClock
+ .data._impure_ptr
+                0x0000000020000004        0x4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+                0x0000000020000004                _impure_ptr
+ .data.impure_data
+                0x0000000020000008       0x60 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+                0x0000000020000068                . = ALIGN (0x4)
+                0x0000000020000068                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x0000000020000068                PROVIDE (__preinit_array_end, .)
+                0x0000000020000068                . = ALIGN (0x4)
+                0x0000000020000068                PROVIDE (__init_array_start, .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x0000000020000068                PROVIDE (__init_array_end, .)
+                0x0000000020000068                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__fini_array_start, .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, .)
+                0x0000000020000068                . = ALIGN (0x4)
+                0x0000000020000068                __data_end__ = .
+
+.igot.plt       0x0000000020000068        0x0 load address 0x0000000000001ed4
+ .igot.plt      0x0000000020000068        0x0 /tmp/cc7ef8Lr.o
+
+.bss            0x0000000020000068     0x2818 load address 0x0000000000001ed4
+                0x0000000020000068                . = ALIGN (0x4)
+                0x0000000020000068                __bss_start__ = .
+ *(.bss*)
+ .bss           0x0000000020000068     0x2808 /tmp/ccrsRCDK.o
+                0x0000000020000068                Ch_1_Glob
+                0x000000002000006c                Int_Glob
+                0x0000000020000070                Ptr_Glob
+                0x0000000020000074                Bool_Glob
+                0x0000000020000078                Ch_2_Glob
+                0x000000002000007c                Next_Ptr_Glob
+                0x0000000020000080                Reg
+                0x0000000020000084                Begin_Time
+                0x0000000020000088                Arr_1_Glob
+                0x0000000020000150                End_Time
+                0x0000000020000154                User_Time
+                0x0000000020000158                Dhrystones_Per_Second
+                0x000000002000015c                Microseconds
+                0x0000000020000160                Arr_2_Glob
+ .bss.__malloc_free_list
+                0x0000000020002870        0x4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020002870                __malloc_free_list
+ .bss.__malloc_sbrk_start
+                0x0000000020002874        0x4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020002874                __malloc_sbrk_start
+ .bss.heap_end.4102
+                0x0000000020002878        0x4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+ *(COMMON)
+ COMMON         0x000000002000287c        0x4 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-reent.o)
+                0x000000002000287c                errno
+                0x0000000020002880                . = ALIGN (0x4)
+                0x0000000020002880                __bss_end__ = .
+
+.heap           0x0000000020002880        0x0
+                0x0000000020002880                __end__ = .
+                0x0000000020002880                end = __end__
+ *(.heap*)
+ .heap          0x0000000020002880        0x0 /tmp/cc7ef8Lr.o
+                0x0000000020002880                __HeapLimit = .
+
+.stack_dummy    0x0000000020002880      0x200
+ *(.stack*)
+ .stack         0x0000000020002880      0x200 /tmp/cc7ef8Lr.o
+                0x000000002000fc00                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x000000002000fa00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x000000002000fc00                PROVIDE (__stack, __StackTop)
+                0x0000000000000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+OUTPUT(dhry.o elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x29
+ .ARM.attributes
+                0x0000000000000000       0x1d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+ .ARM.attributes
+                0x000000000000001d       0x1b /tmp/cc7ef8Lr.o
+ .ARM.attributes
+                0x0000000000000038       0x33 /tmp/ccrsRCDK.o
+ .ARM.attributes
+                0x000000000000006b       0x33 /tmp/ccIe5ioU.o
+ .ARM.attributes
+                0x000000000000009e       0x33 /tmp/ccTHQgf4.o
+ .ARM.attributes
+                0x00000000000000d1       0x33 /tmp/ccorcQee.o
+ .ARM.attributes
+                0x0000000000000104       0x33 /tmp/ccD0i9io.o
+ .ARM.attributes
+                0x0000000000000137       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000164       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000191       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x00000000000001be       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000000001eb       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x0000000000000218       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x0000000000000245       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-printf.o)
+ .ARM.attributes
+                0x0000000000000272       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putchar.o)
+ .ARM.attributes
+                0x000000000000029f       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-puts.o)
+ .ARM.attributes
+                0x00000000000002cc       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000000002f9       0x1b /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x0000000000000314       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wbuf.o)
+ .ARM.attributes
+                0x0000000000000341       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x000000000000036e       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x000000000000039b       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x00000000000003c8       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x00000000000003f5       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x0000000000000422       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x000000000000044f       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf.o)
+ .ARM.attributes
+                0x000000000000047c       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x00000000000004a9       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putc.o)
+ .ARM.attributes
+                0x00000000000004d6       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000000000000503       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x0000000000000530       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-writer.o)
+ .ARM.attributes
+                0x000000000000055d       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-closer.o)
+ .ARM.attributes
+                0x000000000000058a       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x00000000000005b7       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x00000000000005e4       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x0000000000000611       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x000000000000063e       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-readr.o)
+ .ARM.attributes
+                0x000000000000066b       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(close.o)
+ .ARM.attributes
+                0x0000000000000698       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(fstat.o)
+ .ARM.attributes
+                0x00000000000006c5       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(isatty.o)
+ .ARM.attributes
+                0x00000000000006f2       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(lseek.o)
+ .ARM.attributes
+                0x000000000000071f       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(read.o)
+ .ARM.attributes
+                0x000000000000074c       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x0000000000000779       0x2d /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(_exit.o)
+
+.comment        0x0000000000000000       0x7e
+ .comment       0x0000000000000000       0x7e /tmp/ccrsRCDK.o
+                                         0x7f (size before relaxing)
+ .comment       0x000000000000007e       0x7f /tmp/ccIe5ioU.o
+ .comment       0x000000000000007e       0x7f /tmp/ccTHQgf4.o
+ .comment       0x000000000000007e       0x7f /tmp/ccorcQee.o
+ .comment       0x000000000000007e       0x7f /tmp/ccD0i9io.o
+
+.debug_line     0x0000000000000000      0xdef
+ .debug_line    0x0000000000000000       0xdc /tmp/cc7ef8Lr.o
+ .debug_line    0x00000000000000dc      0x497 /tmp/ccrsRCDK.o
+ .debug_line    0x0000000000000573      0x22c /tmp/ccIe5ioU.o
+ .debug_line    0x000000000000079f      0x1d8 /tmp/ccTHQgf4.o
+ .debug_line    0x0000000000000977      0x298 /tmp/ccorcQee.o
+ .debug_line    0x0000000000000c0f      0x1e0 /tmp/ccD0i9io.o
+
+.debug_info     0x0000000000000000     0x346e
+ .debug_info    0x0000000000000000       0x26 /tmp/cc7ef8Lr.o
+ .debug_info    0x0000000000000026     0x152b /tmp/ccrsRCDK.o
+ .debug_info    0x0000000000001551      0xb4d /tmp/ccIe5ioU.o
+ .debug_info    0x000000000000209e      0x92e /tmp/ccTHQgf4.o
+ .debug_info    0x00000000000029cc      0x9be /tmp/ccorcQee.o
+ .debug_info    0x000000000000338a       0xe4 /tmp/ccD0i9io.o
+
+.debug_abbrev   0x0000000000000000      0x952
+ .debug_abbrev  0x0000000000000000       0x14 /tmp/cc7ef8Lr.o
+ .debug_abbrev  0x0000000000000014      0x2ea /tmp/ccrsRCDK.o
+ .debug_abbrev  0x00000000000002fe      0x21a /tmp/ccIe5ioU.o
+ .debug_abbrev  0x0000000000000518      0x1af /tmp/ccTHQgf4.o
+ .debug_abbrev  0x00000000000006c7      0x1f7 /tmp/ccorcQee.o
+ .debug_abbrev  0x00000000000008be       0x94 /tmp/ccD0i9io.o
+
+.debug_aranges  0x0000000000000000       0xc8
+ .debug_aranges
+                0x0000000000000000       0x20 /tmp/cc7ef8Lr.o
+ .debug_aranges
+                0x0000000000000020       0x28 /tmp/ccrsRCDK.o
+ .debug_aranges
+                0x0000000000000048       0x20 /tmp/ccIe5ioU.o
+ .debug_aranges
+                0x0000000000000068       0x20 /tmp/ccTHQgf4.o
+ .debug_aranges
+                0x0000000000000088       0x20 /tmp/ccorcQee.o
+ .debug_aranges
+                0x00000000000000a8       0x20 /tmp/ccD0i9io.o
+
+.debug_str      0x0000000000000000      0xae2
+ .debug_str     0x0000000000000000       0xae /tmp/cc7ef8Lr.o
+ .debug_str     0x00000000000000ae      0x7fe /tmp/ccrsRCDK.o
+                                        0x8ee (size before relaxing)
+ .debug_str     0x00000000000008ac      0x10a /tmp/ccIe5ioU.o
+                                        0x736 (size before relaxing)
+ .debug_str     0x00000000000009b6       0x37 /tmp/ccTHQgf4.o
+                                        0x5e5 (size before relaxing)
+ .debug_str     0x00000000000009ed       0x92 /tmp/ccorcQee.o
+                                        0x68b (size before relaxing)
+ .debug_str     0x0000000000000a7f       0x63 /tmp/ccD0i9io.o
+                                        0x212 (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x50b
+ .debug_loc     0x0000000000000000      0x1ae /tmp/ccrsRCDK.o
+ .debug_loc     0x00000000000001ae      0x2b2 /tmp/ccIe5ioU.o
+ .debug_loc     0x0000000000000460       0xab /tmp/ccTHQgf4.o
+
+.debug_ranges   0x0000000000000000       0x18
+ .debug_ranges  0x0000000000000000       0x18 /tmp/ccrsRCDK.o
+
+.debug_frame    0x0000000000000000      0xb38
+ .debug_frame   0x0000000000000000       0xa8 /tmp/ccrsRCDK.o
+ .debug_frame   0x00000000000000a8       0x98 /tmp/ccIe5ioU.o
+ .debug_frame   0x0000000000000140       0x2c /tmp/ccTHQgf4.o
+ .debug_frame   0x000000000000016c       0x58 /tmp/ccorcQee.o
+ .debug_frame   0x00000000000001c4       0x30 /tmp/ccD0i9io.o
+ .debug_frame   0x00000000000001f4       0x28 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-exit.o)
+ .debug_frame   0x000000000000021c       0x30 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-malloc.o)
+ .debug_frame   0x000000000000024c       0x20 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memset.o)
+ .debug_frame   0x000000000000026c       0x38 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000000000002a4       0x2c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000000002d0       0x74 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-printf.o)
+ .debug_frame   0x0000000000000344       0x58 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putchar.o)
+ .debug_frame   0x000000000000039c       0x3c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-puts.o)
+ .debug_frame   0x00000000000003d8       0x2c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000000404       0x20 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-strcmp.o)
+ .debug_frame   0x0000000000000424       0x40 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wbuf.o)
+ .debug_frame   0x0000000000000464       0x2c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-wsetup.o)
+ .debug_frame   0x0000000000000490       0x68 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fflush.o)
+ .debug_frame   0x00000000000004f8      0x11c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-findfp.o)
+ .debug_frame   0x0000000000000614       0x54 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fwalk.o)
+ .debug_frame   0x0000000000000668       0x58 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-makebuf.o)
+ .debug_frame   0x00000000000006c0       0x30 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x00000000000006f0       0xac /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf.o)
+ .debug_frame   0x000000000000079c       0x60 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x00000000000007fc       0x48 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-putc.o)
+ .debug_frame   0x0000000000000844       0x5c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-reent.o)
+ .debug_frame   0x00000000000008a0       0x88 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-stdio.o)
+ .debug_frame   0x0000000000000928       0x2c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-writer.o)
+ .debug_frame   0x0000000000000954       0x2c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-closer.o)
+ .debug_frame   0x0000000000000980       0x2c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-fstatr.o)
+ .debug_frame   0x00000000000009ac       0x2c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-isattyr.o)
+ .debug_frame   0x00000000000009d8       0x2c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-lseekr.o)
+ .debug_frame   0x0000000000000a04       0x28 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x0000000000000a2c       0x2c /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg_nano.a(lib_a-readr.o)
+ .debug_frame   0x0000000000000a58       0x20 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(close.o)
+ .debug_frame   0x0000000000000a78       0x20 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(fstat.o)
+ .debug_frame   0x0000000000000a98       0x20 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(isatty.o)
+ .debug_frame   0x0000000000000ab8       0x20 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(lseek.o)
+ .debug_frame   0x0000000000000ad8       0x20 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(read.o)
+ .debug_frame   0x0000000000000af8       0x20 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(sbrk.o)
+ .debug_frame   0x0000000000000b18       0x20 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(_exit.o)
+
+.stab           0x0000000000000000       0x84
+ .stab          0x0000000000000000       0x24 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(close.o)
+ .stab          0x0000000000000024       0x18 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(fstat.o)
+                                         0x24 (size before relaxing)
+ .stab          0x000000000000003c       0x18 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(isatty.o)
+                                         0x24 (size before relaxing)
+ .stab          0x0000000000000054       0x18 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(lseek.o)
+                                         0x24 (size before relaxing)
+ .stab          0x000000000000006c       0x18 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(read.o)
+                                         0x24 (size before relaxing)
+
+.stabstr        0x0000000000000000      0x117
+ .stabstr       0x0000000000000000      0x117 /home/sravanthi/Desktop/soc_verification/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libnosys.a(close.o)

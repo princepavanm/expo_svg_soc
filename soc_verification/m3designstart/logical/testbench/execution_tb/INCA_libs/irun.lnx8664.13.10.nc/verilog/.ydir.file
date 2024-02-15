@@ -1,0 +1,4 @@
+../verilog//CORTEXM3INTEGRATIONDS.v
+../verilog//CORTEXM3INTEGRATIONDS.vlib
+../verilog//p_beid_peripheral_f0_static_reg.v
+../verilog//p_beid_peripheral_f0_static_reg.vlib

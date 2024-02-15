@@ -1,0 +1,63 @@
+Reading pref.tcl
+
+# 2021.1
+
+# vsim -quiet -assertdebug -voptargs="+acc=blnr" tb_fpga_shield -64 -c -do "radix hex; run 40000us ;quit -f" 
+# Start time: 06:24:09 on Feb 15,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# radix hex
+# hexadecimal
+#  run 40000us 
+# Loading CXDT from parameter IMAGENAME (./CXDT.bin)
+# *
+# * Max. address:                        001ffff
+# * Begin of full protection address:    0000000
+# * Begin of half protection address:    0010000
+# * Begin of quarter protection address: 0018000
+# *
+# ===========================================================
+# 
+#  nvSRAM Power UP 
+# *
+# * Max. address:                        001ffff
+# * Begin of full protection address:    0000000
+# * Begin of half protection address:    0010000
+# * Begin of quarter protection address: 0018000
+# *
+# ===========================================================
+# 
+#  nvSRAM Power UP 
+# *
+# * Max. address:                        001ffff
+# * Begin of full protection address:    0000000
+# * Begin of half protection address:    0010000
+# * Begin of quarter protection address: 0018000
+# *
+# ===========================================================
+# 
+#  nvSRAM Power UP 
+# 233840.000ns UART: Hello world 
+# 292640.000ns UART: Hello sarvakama_solution 
+# 338840.000ns UART: ** TEST PASSED ** 
+# 342400.000ns UART: Test Ended
+# ** Note: $stop    : ../verilog/cmsdk_uart_capture_ard.v(240)
+#    Time: 342400 ns  Iteration: 1  Instance: /tb_fpga_shield/u_cmsdk_uart_capture_ard
+# Break in NamedBeginStat p_sim_end at ../verilog/cmsdk_uart_capture_ard.v line 240
+# Stopped at ../verilog/cmsdk_uart_capture_ard.v line 240
+# quit -f
+# End time: 06:24:20 on Feb 15,2024, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0

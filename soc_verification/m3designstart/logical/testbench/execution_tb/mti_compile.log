@@ -1,0 +1,288 @@
+** Warning: (vlib-34) Library already exists at "work".
+Errors: 0, Warnings: 1
+** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+Start time: 06:24:00 on Feb 15,2024
+vlog -sv -f tbench.vc -f tbench_cm.vc "+define+MTI_BUILD" "+acc=blnr" -noincr -ccflags "-fPIC -std=gnu++11 -D__x86_64__ -DCARBON_SC_USE_2_0 -I/cygdrive/d/test/soc_verification/m3designstart/logical/testbench/execution_tb/../../../../cortexm3_model -I. -m64" "+define+ARM_CM" "+define+ARM_DSM" "+define+VCD_ON" -64 
+-- Compiling module tb_fpga_shield
+-- Scanning library directory '../verilog'
+-- Compiling module cmsdk_uart_capture_ard
+-- Compiling module IS66WVE409616BLL
+-- Compiling module GS8160Z36DT
+-- Compiling module dcc_spi_axi
+-- Compiling module scc_tb
+-- Compiling module tb_arduino_shield
+-- Compiling module arduino_adaptor
+-- Compiling module arduino_shield
+-- Compiling module SPI_EEPROM
+-- Compiling module I2C_SRAM
+-- Scanning library directory '../../cortexm3integration_ds_obs/verilog'
+-- Scanning library directory '../../../../m3designstart_iot/logical/m3ds_iot_top/verilog'
+-- Scanning library directory '../../../../m3designstart_iot/logical/models/modules/generic'
+-- Scanning library directory '../../../../m3designstart_iot/logical/p_beid_interconnect_f0/verilog'
+-- Scanning library directory '../../../../m3designstart_iot/logical/p_beid_interconnect_f0_ahb_mtx/verilog'
+-- Scanning library directory '../../../../m3designstart_iot/logical/p_beid_peripheral_f0/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_ahb_gpio/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_ahb_slave_mux/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_ahb_default_slave/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_ahb_to_apb/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_ahb_to_sram/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_apb_dualtimers/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_apb_slave_mux/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_apb_subsystem/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_apb_uart/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_apb_watchdog/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_iop_gpio/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_fpga_sram/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/models/memories'
+-- Compiling module cmsdk_sram256x16
+-- Scanning library directory '../../fpga_top/verilog'
+-- Compiling module fpga_top
+-- Compiling module fpga_system
+-- Scanning library directory '../../m3ds_user_partition/verilog'
+-- Compiling module m3ds_user_partition
+-- Compiling module m3ds_tscnt_48
+-- Compiling module m3ds_simple_flash
+-- Scanning library directory '../../m3ds_peripherals/verilog'
+-- Compiling module m3ds_sram_subsystem_fpga
+-- Compiling module m3ds_peripherals_wrapper
+-- Compiling module beetle_sysctrl
+-- Compiling module beetle_peripherals_fpga
+-- Compiling module fpga_apb_subsystem
+-- Compiling module mps2_mem_peripherals
+-- Compiling module m3ds_ahb_decoder
+-- Compiling module m3ds_apb_decoder
+-- Compiling module fpga_io_regs_shield
+-- Compiling module cmsdk_ahb_to_extmem16_psram
+-- Compiling module cmsdk_ahb_to_extmem16_ahb_fsm_psram
+-- Compiling module cmsdk_ahb_to_extmem16_mem_fsm_psram
+-- Scanning library directory '../../models/generic'
+-- Scanning library directory '../../../../smm/logical/smm_common_fpga/verilog'
+-- Compiling module fpga_pll_speed
+-- Compiling module fpga_rst_sync
+-- Compiling module fpga_100hz_gen
+-- Compiling module fpga_spi_ahb
+-- Compiling module ahb_blockram_128
+-- Compiling module SBCon
+-- Compiling module ahb_zbtram_64
+-- Compiling module ahb_zbtram_32
+-- Scanning library directory '../../../../smm/logical/apb_i2s/verilog'
+-- Compiling module apb_i2s_top
+-- Compiling module i2s_apb_if
+-- Compiling module i2s_fifo_4
+-- Compiling module i2s_async_src
+-- Compiling module i2s_async_dest
+-- Compiling module i2s_sync_cell
+-- Compiling module i2s_if
+-- Compiling module i2s_pulse_sync
+-- Scanning library directory '../../../../smm/logical/pl022_ssp/verilog'
+-- Compiling module Ssp
+-- Compiling module SspApbif
+-- Compiling module SspTxFIFO
+-- Compiling module SspRxFIFO
+-- Compiling module SspSynctoPCLK
+-- Compiling module SspIntGen
+-- Compiling module SspTest
+-- Compiling module SspRegCore
+-- Compiling module SspSynctoSSPCLK
+-- Compiling module SspScaleCntr
+-- Compiling module SspMTxRxCntl
+-- Compiling module SspSTxRxCntl
+-- Compiling module SspDataStp
+-- Compiling module SspDMA
+-- Compiling module SspRevAnd
+-- Compiling module SspTxFCntl
+-- Compiling module SspTxRegFile
+-- Compiling module SspTxLJustify
+-- Compiling module SspRxFCntl
+-- Compiling module SspRxRegFile
+-- Scanning library directory '../../../../smm/logical/vga_edk/verilog'
+-- Compiling module AHBVGA
+-- Compiling module vga_sync
+-- Compiling module vga_console
+-- Compiling module vga_image
+-- Compiling module font_rom
+-- Compiling module dual_port_ram_sync
+-- Scanning library directory '../../../../smm/logical/ds703_scc_r0p3/verilog'
+-- Compiling module scc
+-- Scanning library directory '../../../../smm/logical/mps2_ahb_decoder/verilog'
+-- Compiling module mps2_ahb_decoder
+-- Scanning library directory '../../../../smm/logical/spi2apb3/verilog'
+-- Compiling module spi2apb3
+-- Scanning library directory '../cxdt/verilog'
+-- Compiling module CXDT
+-- Scanning library directory '../../../../trng/logical'
+-- Scanning library directory '../../../../trng/logical/top'
+-- Compiling module dx_trng_top
+-- Compiling module rst_logic
+-- Scanning library directory '../../../../trng/logical/top/inv_chain'
+-- Compiling module DX_GTECH_AND2
+-- Compiling module DX_GTECH_UDP_MUX4
+-- Compiling module DX_GTECH_MUX4
+-- Compiling module DX_GTECH_NOT
+-- Compiling module \**SEQGEN** 
+-- Compiling module DX_GTECH_UDP_MUX2
+-- Compiling module DX_GTECH_UDP_FD1
+-- Compiling module DX_GTECH_SEDF
+-- Compiling module DX_GTECH_MUX2
+-- Compiling module dx_inv_chain
+-- Scanning library directory '../../../../trng/logical/rng'
+-- Compiling module rng_engine
+-- Compiling module rng_top
+-- Compiling module rng_top_wrap_unconnected
+-- Compiling module rng_misc
+-- Compiling module prng_top_wrap
+-- Scanning library directory '../../../../trng/logical/rng/trng'
+-- Compiling module trng_top
+-- Compiling module trng_sync
+-- Compiling module trng_sample_cntr
+-- Compiling module trng_balancefilter
+-- Compiling module trng_collector
+-- Compiling module ehr
+-- Compiling module trng_tests_misc
+-- Compiling module trng_reg_file
+-- Scanning library directory '../../../../trng/logical/rng/trng/trng_tests'
+-- Compiling module crngt_to_trng
+-- Compiling module autocorrelation
+-- Compiling module pmf_table
+-- Scanning library directory '../../../../trng/logical/rosc'
+-- Scanning library directory '../../../../trng/logical/dx_macros'
+-- Compiling module dxm_mux
+-- Compiling module dxm_interrupt_low
+-- Compiling module dxm_mux_clk
+-- Compiling module dxm_sync
+-- Compiling module dxm_ff
+-- Scanning library directory '../../../../rtc_pl031/logical/rtc_pl031/verilog'
+-- Compiling module Rtc
+-- Compiling module RtcControl
+-- Compiling module RtcApbif
+-- Compiling module RtcCounter
+-- Compiling module RtcInterrupt
+-- Compiling module RtcUpdate
+-- Compiling module RtcSynctoPCLK
+-- Compiling module RtcRevAnd
+-- Scanning library directory '../verilog'
+-- Scanning library directory '../../../../cortexm3_model/verilog'
+-- Scanning library directory '../../../../m3designstart_iot/logical/m3ds_iot_top/verilog'
+-- Compiling module m3ds_iot_top
+-- Scanning library directory '../../../../m3designstart_iot/logical/models/modules/generic'
+-- Scanning library directory '../../../../m3designstart_iot/logical/p_beid_interconnect_f0/verilog'
+-- Compiling module p_beid_interconnect_f0
+-- Compiling module p_beid_interconnect_f0_ahb_code_mux
+-- Compiling module p_beid_interconnect_f0_ahb_to_apb
+-- Compiling module p_beid_interconnect_f0_apb_slave_mux
+-- Scanning library directory '../../../../m3designstart_iot/logical/p_beid_interconnect_f0_ahb_mtx/verilog'
+-- Compiling module p_beid_interconnect_f0_ahb_mtx
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_input_stage
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_decoderINITCM3DI
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_decoderINITCM3S
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_decoderINITEXP0
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_decoderINITEXP1
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_output_stageTARGFLASH0
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_output_stageTARGSRAM0
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_output_stageTARGSRAM1
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_output_stageTARGSRAM2
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_output_stageTARGSRAM3
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_output_stageTARGAPB0
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_output_stageTARGEXP0
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_output_stageTARGEXP1
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_default_slave
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_arbiterTARGFLASH0
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_arbiterTARGSRAM0
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_arbiterTARGSRAM1
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_arbiterTARGSRAM2
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_arbiterTARGSRAM3
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_arbiterTARGAPB0
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_arbiterTARGEXP0
+-- Compiling module p_beid_interconnect_f0_ahb_mtx_arbiterTARGEXP1
+-- Scanning library directory '../../../../m3designstart_iot/logical/p_beid_peripheral_f0/verilog'
+-- Compiling module p_beid_peripheral_f0
+-- Compiling module p_beid_peripheral_f0_timer
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_ahb_gpio/verilog'
+-- Compiling module cmsdk_ahb_gpio
+-- Compiling module cmsdk_ahb_to_iop
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_ahb_slave_mux/verilog'
+-- Compiling module cmsdk_ahb_slave_mux
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_ahb_default_slave/verilog'
+-- Compiling module cmsdk_ahb_default_slave
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_ahb_to_apb/verilog'
+-- Compiling module cmsdk_ahb_to_apb
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_ahb_to_extmem16/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_ahb_to_sram/verilog'
+-- Compiling module cmsdk_ahb_to_sram
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_apb_dualtimers/verilog'
+-- Compiling module cmsdk_apb_dualtimers
+-- Compiling module cmsdk_apb_dualtimers_frc
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_apb_slave_mux/verilog'
+-- Compiling module cmsdk_apb_slave_mux
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_apb_subsystem/verilog'
+-- Compiling module cmsdk_irq_sync
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_apb_uart/verilog'
+-- Compiling module cmsdk_apb_uart
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_apb_watchdog/verilog'
+-- Compiling module cmsdk_apb_watchdog
+-- Compiling module cmsdk_apb_watchdog_frc
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_iop_gpio/verilog'
+-- Compiling module cmsdk_iop_gpio
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_fpga_sram/verilog'
+-- Compiling module cmsdk_fpga_sram
+-- Scanning library directory '../../../../cmsdk/logical/models/memories'
+-- Scanning library directory '../../fpga_top/verilog'
+-- Scanning library directory '../../m3ds_user_partition/verilog'
+-- Scanning library directory '../../m3ds_peripherals/verilog'
+-- Scanning library directory '../../models/generic'
+-- Scanning library directory '../../../../smm/logical/smm_common_fpga/verilog'
+-- Scanning library directory '../../../../smm/logical/apb_i2s/verilog'
+-- Scanning library directory '../../../../smm/logical/pl022_ssp/verilog'
+-- Scanning library directory '../../../../smm/logical/vga_edk/verilog'
+-- Scanning library directory '../../../../smm/logical/ds703_scc_r0p3/verilog'
+-- Scanning library directory '../../../../smm/logical/mps2_ahb_decoder/verilog'
+-- Scanning library directory '../../../../smm/logical/spi2apb3/verilog'
+-- Scanning library directory '../cxdt/verilog'
+-- Scanning library directory '../../../../trng/logical'
+-- Compiling module slave_bus_ifc
+-- Scanning library directory '../../../../trng/logical/top'
+-- Scanning library directory '../../../../trng/logical/top/inv_chain'
+-- Scanning library directory '../../../../trng/logical/rng'
+-- Scanning library directory '../../../../trng/logical/rng/trng'
+-- Scanning library directory '../../../../trng/logical/rng/trng/trng_tests'
+-- Scanning library directory '../../../../trng/logical/rosc'
+-- Scanning library directory '../../../../trng/logical/dx_macros'
+-- Scanning library directory '../../../../rtc_pl031/logical/rtc_pl031/verilog'
+-- Scanning library directory '../verilog'
+-- Scanning library directory '../../cortexm3integration_ds_obs/verilog'
+-- Compiling module CORTEXM3INTEGRATIONDS
+-- Compiling module cortexm3ds_logic
+-- Scanning library directory '../../../../m3designstart_iot/logical/m3ds_iot_top/verilog'
+-- Scanning library directory '../../../../m3designstart_iot/logical/models/modules/generic'
+-- Compiling module p_beid_peripheral_f0_static_reg
+-- Scanning library directory '../../../../m3designstart_iot/logical/p_beid_interconnect_f0/verilog'
+-- Scanning library directory '../../../../m3designstart_iot/logical/p_beid_interconnect_f0_ahb_mtx/verilog'
+-- Scanning library directory '../../../../m3designstart_iot/logical/p_beid_peripheral_f0/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_ahb_gpio/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_ahb_slave_mux/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_ahb_default_slave/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_ahb_to_apb/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_ahb_to_sram/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_apb_dualtimers/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_apb_slave_mux/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_apb_subsystem/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_apb_uart/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_apb_watchdog/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_iop_gpio/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/cmsdk_fpga_sram/verilog'
+-- Scanning library directory '../../../../cmsdk/logical/models/memories'
+-- Scanning library directory '../../fpga_top/verilog'
+-- Scanning library directory '../../m3ds_user_partition/verilog'
+-- Scanning library directory '../../m3ds_peripherals/verilog'
+-- Scanning library directory '../../models/generic'
+-- Compiling module static_reg
+
+Top level modules:
+	tb_fpga_shield
+End time: 06:24:01 on Feb 15,2024, Elapsed time: 0:00:01
+Errors: 0, Warnings: 1
+** Error: (sccom-95) Your installation directory does not contain the appropriate GNU C++ compiler. Download and install the tarball from the ftp site (questa_sim-gcc-7.4.0-mingw64vc15.zip for Questa Core/Prime or questasim-gcc-7.4.0-mingw64vc15.zip for Questa SV/AFV).
+Errors: 1, Warnings: 0
+** Error: (sccom-95) Your installation directory does not contain the appropriate GNU C++ compiler. Download and install the tarball from the ftp site (questa_sim-gcc-7.4.0-mingw64vc15.zip for Questa Core/Prime or questasim-gcc-7.4.0-mingw64vc15.zip for Questa SV/AFV).
+Errors: 1, Warnings: 0

@@ -1,0 +1,54 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-INPUT
+"@source /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/files/tcl/uvm_sim.tcl"
++access+rwc
++define+OVL_ERROR=1
++define+OVL_FATAL=1
++define+OVL_ASSERT=1
++define+SIMULATION=1
++libext+.v+.vlib
++incdir+../systemverilog/apb_wdog_timer
++incdir+../systemverilog/apb_wdog_timer/master_agent
++incdir+../systemverilog/apb_timer
++incdir+../systemverilog/apb_timer/apb_agent
++incdir+../systemverilog/ahb_memory
++incdir+../systemverilog/ahb_memory/ahb_agent
++incdir+../systemverilog
++incdir+../verilog/
++incdir+../../../../cmsdk/logical/cmsdk_apb_dualtimers/verilog
++incdir+../../../../rtc_pl031/logical/rtc_pl031/verilog
++incdir+../../../../smm/logical/pl022_ssp/verilog
++incdir+../cxdt/verilog
++incdir+../../fpga_top/verilog
++incdir+../../../../cmsdk/logical/cmsdk_apb_dualtimers/verilog
++incdir+../../../../cmsdk/logical/cmsdk_apb_watchdog/verilog
++incdir+../../../../trng/logical/inc
++define+IUS_BUILD
++define+VCD_ON
+-sv_lib
+/home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/lib/64bit/libuvmpli.so
+-MESSAGES
+-RUN
+-SV_LIB
+/home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/lib/64bit/libuvmdpi.so
++EMGRLOG
+irun.log
+-XLSTIME
+1569566489
+-XLKEEP
+-XLMODE
+./INCA_libs/irun.lnx8664.13.10.nc
+-RUNMODE
+-CDSLIB
+./INCA_libs/irun.lnx8664.13.10.nc/cds.lib
+-HDLVAR
+./INCA_libs/irun.lnx8664.13.10.nc/hdl.var
+-XLNAME
+irun
+-XLVERSION
+"TOOL:	irun(64)	13.10-s016"
+-XLNAME
+./INCA_libs/irun.lnx8664.13.10.nc/sks05_13772

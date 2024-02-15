@@ -1,0 +1,2627 @@
+irun(64): 13.10-s016: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+TOOL:	irun(64)	13.10-s016: Started on Sep 27, 2019 at 06:42:07 Local time zone must be set--see zic manual page
+irun
+	+access+rwc
+	-uvm
+	-R
+	-unbuffered
+	-64bit
+	-input run.tcl
+Loading snapshot worklib.tb_fpga_shield:sv .................... Done
+SVSEED default: 1
+ncsim> source /home/cad/INCISIV131/tools/inca/files/ncsimrc
+ncsim> source /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/files/tcl/uvm_sim.tcl
+ncsim> run 40000us 
+----------------------------------------------------------------
+CDNS-UVM-1.1d (13.10-s016)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'apb_driver' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'apb_monitor' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'apb_sequencer' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'apb_agent' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'apb_agent_config' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'reg_adapter' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+Loading CXDT from parameter IMAGENAME (./CXDT.bin)
+*
+* Max. address:                        001ffff
+* Begin of full protection address:    0000000
+* Begin of half protection address:    0010000
+* Begin of quarter protection address: 0018000
+*
+===========================================================
+
+ nvSRAM Power UP 
+*
+* Max. address:                        001ffff
+* Begin of full protection address:    0000000
+* Begin of half protection address:    0010000
+* Begin of quarter protection address: 0018000
+*
+===========================================================
+
+ nvSRAM Power UP 
+*
+* Max. address:                        001ffff
+* Begin of full protection address:    0000000
+* Begin of half protection address:    0010000
+* Begin of quarter protection address: 0018000
+*
+===========================================================
+
+ nvSRAM Power UP 
+####################d_reg=1359###################
+&&&&&&&&&&&&&&&&&&&&ctrl_reg=1371&&&&&&&&&&&&&&&&&
+UVM_INFO ../systemverilog/apb_timer/tenv.sv(56) @ 0.000ns: uvm_test_top.env_h.tenv_h [Timer Env ] ....Connect phase....
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(70) @ 0.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ....Connect phase.....
+UVM_INFO ../systemverilog/apb_wdog_timer/wtenv.sv(67) @ 0.000ns: uvm_test_top.env_h.wtenv_h [WatchDog Timer Environment] ....Connect phase....
+UVM_INFO ../systemverilog/env.sv(88) @ 0.000ns: uvm_test_top.env_h [Top Env Testbench] ...Connect phase...
+UVM_INFO ../systemverilog/test.sv(113) @ 0.000ns: uvm_test_top [TEST]  ======Run phase in base_test started : TIMER, WDOG TIMER SRAM0 and UART RALs enabled ======= 
+UVM_INFO @ 0.000ns: reporter [UVMTOP] UVM testbench topology:
+---------------------------------------------------------------------------
+Name                         Type                               Size  Value
+---------------------------------------------------------------------------
+uvm_test_top                 base_test                          -     @4424
+  env_h                      env                                -     @454 
+    tenv_h                   tenv                               -     @5145
+      predictor_timer        uvm_reg_predictor #(apb_txn)       -     @468 
+        bus_in               uvm_analysis_imp                   -     @5453
+        reg_ap               uvm_analysis_port                  -     @5529
+      timer_agent            apb_agent                          -     @5306
+        apb_dummy_seqr       apb_sequencer                      -     @5374
+          rsp_export         uvm_analysis_export                -     @5723
+          seq_item_export    uvm_seq_item_pull_imp              -     @6551
+          arbitration_queue  array                              0     -    
+          lock_queue         array                              0     -    
+          num_last_reqs      integral                           32    'd1  
+          num_last_rsps      integral                           32    'd1  
+        apb_mon              apb_monitor                        -     @5594
+          monitor_port       uvm_analysis_port                  -     @6679
+    uart_env                 uart_env                           -     @5227
+      magent                 apb_agent                          -     @6739
+        mon                  apb_monitor                        -     @7014
+          apb_monitor_port   uvm_analysis_port                  -     @7088
+        uart_dummy_sqr       apb_sequencer                      -     @6806
+          rsp_export         uvm_analysis_export                -     @7216
+          seq_item_export    uvm_seq_item_pull_imp              -     @8044
+          arbitration_queue  array                              0     -    
+          lock_queue         array                              0     -    
+          num_last_reqs      integral                           32    'd1  
+          num_last_rsps      integral                           32    'd1  
+      predictor_h            uvm_reg_predictor #(apb_xtn)       -     @5641
+        bus_in               uvm_analysis_imp                   -     @6882
+        reg_ap               uvm_analysis_port                  -     @6958
+    wtenv_h                  wtenv                              -     @5071
+      predictor_wdog         uvm_reg_predictor #(master_trans)  -     @7135
+        bus_in               uvm_analysis_imp                   -     @8308
+        reg_ap               uvm_analysis_port                  -     @8384
+      wdog_agent             master_agent                       -     @8161
+        monitor_h            master_monitor                     -     @8447
+          monport            uvm_analysis_port                  -     @9488
+        wdog_dummy_seqr      master_sequencer                   -     @8231
+          rsp_export         uvm_analysis_export                -     @8575
+          seq_item_export    uvm_seq_item_pull_imp              -     @9403
+          arbitration_queue  array                              0     -    
+          lock_queue         array                              0     -    
+          num_last_reqs      integral                           32    'd1  
+          num_last_rsps      integral                           32    'd1  
+---------------------------------------------------------------------------
+
+217160.000ns UART:  
+352840.000ns UART: Cortex-M3 DesignStart - Watchdog Demo - revision $Revision: 242484 $ 
+365800.000ns UART:  
+415280.000ns UART: Watchdog demo test 
+428240.000ns UART:  
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 430880.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1fa
+  psel       integral      1     1    
+  pwrite     integral      1     'd0  
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h1b 
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 431000.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1f8
+  psel       integral      1     1    
+  pwrite     integral      1     'd0  
+  penable    integral      1     1    
+  pwdata     integral      32    'h1b 
+  prdata     integral      32    'h24 
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 431360.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1f9
+  psel       integral      1     1    
+  pwrite     integral      1     'd0  
+  penable    integral      1     1    
+  pwdata     integral      32    'h24 
+  prdata     integral      32    'hb8 
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(61) @ 432040.000ns: reporter [BUS2REG_R] adapter bus2reg read access addr=0, data=ffffffff 
+ -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'hb8      
+  prdata     integral      32    'hffffffff
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_ERROR /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2892) @ 432040.000ns: reporter [RegModel] Register "wt_reg_block_h.load_register" value read from DUT (0x00000000ffffffff) does not match mirrored value (0x0000000000000000)
+UVM_INFO /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2911) @ 432040.000ns: reporter [RegModel] Field ld_reg (wt_reg_block_h.load_register[31:0]) mismatch read=32'hffffffff mirrored=32'h0 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 432040.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'hb8      
+  prdata     integral      32    'hffffffff
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_ERROR /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2892) @ 432160.000ns: reporter [RegModel] Register "wt_reg_block_h.load_register" value read from DUT (0x0000000000000000) does not match mirrored value (0x00000000ffffffff)
+UVM_INFO /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2911) @ 432160.000ns: reporter [RegModel] Field ld_reg (wt_reg_block_h.load_register[31:0]) mismatch read=32'h0 mirrored=32'hffffffff 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 432160.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h1       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'hffffffff
+  prdata     integral      32    'hffffffff
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(61) @ 432280.000ns: reporter [BUS2REG_R] adapter bus2reg read access addr=2, data=0 
+ -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h2       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'hffffffff
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 432280.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h2       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'hffffffff
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 432440.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=0, data=12345678 
+ -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h12345678
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 432440.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h12345678
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_ERROR /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2892) @ 432560.000ns: reporter [RegModel] Register "wt_reg_block_h.load_register" value read from DUT (0x0000000000000000) does not match mirrored value (0x0000000012345678)
+UVM_INFO /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2911) @ 432560.000ns: reporter [RegModel] Field ld_reg (wt_reg_block_h.load_register[31:0]) mismatch read=32'h0 mirrored=32'h12345678 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 432560.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h1       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h0       
+  prdata     integral      32    'h12345678
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 432720.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=0 
+ --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 432720.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(61) @ 432960.000ns: reporter [BUS2REG_R] adapter bus2reg read access addr=0, data=12345678 
+ -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h0       
+  prdata     integral      32    'h12345678
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_ERROR /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2892) @ 432960.000ns: reporter [RegModel] Register "wt_reg_block_h.load_register" value read from DUT (0x0000000012345678) does not match mirrored value (0x0000000000000000)
+UVM_INFO /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2911) @ 432960.000ns: reporter [RegModel] Field ld_reg (wt_reg_block_h.load_register[31:0]) mismatch read=32'h12345678 mirrored=32'h0 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 432960.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h0       
+  prdata     integral      32    'h12345678
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_ERROR /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2892) @ 433080.000ns: reporter [RegModel] Register "wt_reg_block_h.load_register" value read from DUT (0x0000000000000000) does not match mirrored value (0x0000000012345678)
+UVM_INFO /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2911) @ 433080.000ns: reporter [RegModel] Field ld_reg (wt_reg_block_h.load_register[31:0]) mismatch read=32'h0 mirrored=32'h12345678 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 433080.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h1       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h12345678
+  prdata     integral      32    'h12345678
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(61) @ 433200.000ns: reporter [BUS2REG_R] adapter bus2reg read access addr=2, data=0 
+ -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h2       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h12345678
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 433200.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h2       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h12345678
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 433360.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=0, data=12ccecf8 
+ -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h12ccecf8
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 433360.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h12ccecf8
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_ERROR /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2892) @ 433480.000ns: reporter [RegModel] Register "wt_reg_block_h.load_register" value read from DUT (0x0000000000000000) does not match mirrored value (0x0000000012ccecf8)
+UVM_INFO /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2911) @ 433480.000ns: reporter [RegModel] Field ld_reg (wt_reg_block_h.load_register[31:0]) mismatch read=32'h0 mirrored=32'h12ccecf8 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 433480.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h1       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h0       
+  prdata     integral      32    'h12ccecf8
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 433640.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=1 
+ --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h1  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 433640.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h1  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(61) @ 433880.000ns: reporter [BUS2REG_R] adapter bus2reg read access addr=0, data=12ccecf8 
+ -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h0       
+  prdata     integral      32    'h12ccecf8
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_ERROR /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2892) @ 433880.000ns: reporter [RegModel] Register "wt_reg_block_h.load_register" value read from DUT (0x0000000012ccecf8) does not match mirrored value (0x0000000000000000)
+UVM_INFO /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2911) @ 433880.000ns: reporter [RegModel] Field ld_reg (wt_reg_block_h.load_register[31:0]) mismatch read=32'h12ccecf8 mirrored=32'h0 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 433880.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h0       
+  prdata     integral      32    'h12ccecf8
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_ERROR /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2892) @ 434000.000ns: reporter [RegModel] Register "wt_reg_block_h.load_register" value read from DUT (0x0000000000000000) does not match mirrored value (0x0000000012ccecf8)
+UVM_INFO /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2911) @ 434000.000ns: reporter [RegModel] Field ld_reg (wt_reg_block_h.load_register[31:0]) mismatch read=32'h0 mirrored=32'h12ccecf8 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 434000.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h1       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h12ccecf8
+  prdata     integral      32    'h12ccecf1
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(61) @ 434120.000ns: reporter [BUS2REG_R] adapter bus2reg read access addr=2, data=1 
+ -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h2       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h12ccecf1
+  prdata     integral      32    'h1       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 434120.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h2       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h12ccecf1
+  prdata     integral      32    'h1       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 434280.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=0, data=13658378 
+ -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h13658378
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 434280.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h13658378
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_ERROR /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2892) @ 434400.000ns: reporter [RegModel] Register "wt_reg_block_h.load_register" value read from DUT (0x0000000000000000) does not match mirrored value (0x0000000013658378)
+UVM_INFO /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2911) @ 434400.000ns: reporter [RegModel] Field ld_reg (wt_reg_block_h.load_register[31:0]) mismatch read=32'h0 mirrored=32'h13658378 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 434400.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h1       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h0       
+  prdata     integral      32    'h13658378
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 434560.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=2 
+ --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h2  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 434560.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h2  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(61) @ 434800.000ns: reporter [BUS2REG_R] adapter bus2reg read access addr=0, data=13658378 
+ -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h0       
+  prdata     integral      32    'h13658378
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_ERROR /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2892) @ 434800.000ns: reporter [RegModel] Register "wt_reg_block_h.load_register" value read from DUT (0x0000000013658378) does not match mirrored value (0x0000000000000000)
+UVM_INFO /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2911) @ 434800.000ns: reporter [RegModel] Field ld_reg (wt_reg_block_h.load_register[31:0]) mismatch read=32'h13658378 mirrored=32'h0 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 434800.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h0       
+  prdata     integral      32    'h13658378
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_ERROR /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2892) @ 434920.000ns: reporter [RegModel] Register "wt_reg_block_h.load_register" value read from DUT (0x0000000000000000) does not match mirrored value (0x0000000013658378)
+UVM_INFO /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2911) @ 434920.000ns: reporter [RegModel] Field ld_reg (wt_reg_block_h.load_register[31:0]) mismatch read=32'h0 mirrored=32'h13658378 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 434920.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h1       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h13658378
+  prdata     integral      32    'h13658373
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(61) @ 435040.000ns: reporter [BUS2REG_R] adapter bus2reg read access addr=2, data=2 
+ -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h2       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h13658373
+  prdata     integral      32    'h2       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 435040.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h2       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h13658373
+  prdata     integral      32    'h2       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 435200.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=0, data=13fe19f8 
+ -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h13fe19f8
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 435200.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h13fe19f8
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_ERROR /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2892) @ 435320.000ns: reporter [RegModel] Register "wt_reg_block_h.load_register" value read from DUT (0x0000000000000000) does not match mirrored value (0x0000000013fe19f8)
+UVM_INFO /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2911) @ 435320.000ns: reporter [RegModel] Field ld_reg (wt_reg_block_h.load_register[31:0]) mismatch read=32'h0 mirrored=32'h13fe19f8 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 435320.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h1       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h0       
+  prdata     integral      32    'h13fe19f8
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 435480.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=3 
+ --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h3  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 435480.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h3  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(61) @ 435720.000ns: reporter [BUS2REG_R] adapter bus2reg read access addr=0, data=13fe19f8 
+ -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h0       
+  prdata     integral      32    'h13fe19f8
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_ERROR /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2892) @ 435720.000ns: reporter [RegModel] Register "wt_reg_block_h.load_register" value read from DUT (0x0000000013fe19f8) does not match mirrored value (0x0000000000000000)
+UVM_INFO /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2911) @ 435720.000ns: reporter [RegModel] Field ld_reg (wt_reg_block_h.load_register[31:0]) mismatch read=32'h13fe19f8 mirrored=32'h0 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 435720.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h0       
+  prdata     integral      32    'h13fe19f8
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_ERROR /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2892) @ 435840.000ns: reporter [RegModel] Register "wt_reg_block_h.load_register" value read from DUT (0x0000000000000000) does not match mirrored value (0x0000000013fe19f8)
+UVM_INFO /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2911) @ 435840.000ns: reporter [RegModel] Field ld_reg (wt_reg_block_h.load_register[31:0]) mismatch read=32'h0 mirrored=32'h13fe19f8 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 435840.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h1       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h13fe19f8
+  prdata     integral      32    'h13fe19f1
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(61) @ 435960.000ns: reporter [BUS2REG_R] adapter bus2reg read access addr=2, data=3 
+ -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h2       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h13fe19f1
+  prdata     integral      32    'h3       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 435960.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h2       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h13fe19f1
+  prdata     integral      32    'h3       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 436120.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=0, data=1496b078 
+ -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1496b078
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 436120.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h0       
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1496b078
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_ERROR /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2892) @ 436240.000ns: reporter [RegModel] Register "wt_reg_block_h.load_register" value read from DUT (0x0000000000000000) does not match mirrored value (0x000000001496b078)
+UVM_INFO /home/cad/INCISIV131/tools/uvm/uvm_lib/uvm_sv/sv/reg/uvm_reg.svh(2911) @ 436240.000ns: reporter [RegModel] Field ld_reg (wt_reg_block_h.load_register[31:0]) mismatch read=32'h0 mirrored=32'h1496b078 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 436240.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h1       
+  psel       integral      1     1         
+  pwrite     integral      1     'd0       
+  penable    integral      1     1         
+  pwdata     integral      32    'h0       
+  prdata     integral      32    'h1496b078
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 436400.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=4 
+ --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h4  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 436400.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h4  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+485040.000ns UART: Main program part 1 
+498000.000ns UART:  
+551720.000ns UART: - Detect ID registers 
+564680.000ns UART:  
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 567520.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1f8
+  psel       integral      1     1    
+  pwrite     integral      1     'd0  
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h24 
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+673320.000ns UART: Values[0]=0x24 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 678000.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1f9
+  psel       integral      1     1    
+  pwrite     integral      1     'd0  
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'hb8 
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+784120.000ns UART: Values[1]=0xb8 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 788800.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1fa
+  psel       integral      1     1    
+  pwrite     integral      1     'd0  
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h1b 
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+894920.000ns UART: Values[2]=0x1b 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 899600.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1fb
+  psel       integral      1     1    
+  pwrite     integral      1     'd0  
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+1002400.000ns UART: Values[3]=0x0 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1007080.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1fc
+  psel       integral      1     1    
+  pwrite     integral      1     'd0  
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'hd  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+1110200.000ns UART: Values[4]=0xd 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1114880.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1fd
+  psel       integral      1     1    
+  pwrite     integral      1     'd0  
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'hf0 
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+1221000.000ns UART: Values[5]=0xf0 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1225680.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1fe
+  psel       integral      1     1    
+  pwrite     integral      1     'd0  
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h5  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+1328800.000ns UART: Values[6]=0x5 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1333480.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1ff
+  psel       integral      1     1    
+  pwrite     integral      1     'd0  
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'hb1 
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+1439600.000ns UART: Values[7]=0xb1 
+1457680.000ns UART:  
+1533640.000ns UART: - Program watchdog for 10000 cycles 
+1591240.000ns UART:   Unlocking watchdog... 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1593920.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 1594080.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=0, data=2710 
+ ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h0   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1594080.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h0   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+1648760.000ns UART:   Set to NMI generation 
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 1651320.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=1 
+ --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h1  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1651320.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h1  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+1702400.000ns UART:   Locking watchdog... 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1705080.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+1803680.000ns UART: - Run loop with watchdog set regularly 10 times 
+1816640.000ns UART:  
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1819360.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h1   
+  psel       integral      1     1     
+  pwrite     integral      1     'd0   
+  penable    integral      1     1     
+  pwdata     integral      32    'h0   
+  prdata     integral      32    'h16a9
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1819760.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 1819920.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=2710 
+ ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1819920.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1820080.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+1880000.000ns UART:   Watchdog value set again 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1882640.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h1   
+  psel       integral      1     1     
+  pwrite     integral      1     'd0   
+  penable    integral      1     1     
+  pwdata     integral      32    'h0   
+  prdata     integral      32    'h169a
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1883040.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 1883200.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=2710 
+ ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1883200.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1883360.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+1943280.000ns UART:   Watchdog value set again 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1945920.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h1   
+  psel       integral      1     1     
+  pwrite     integral      1     'd0   
+  penable    integral      1     1     
+  pwdata     integral      32    'h0   
+  prdata     integral      32    'h169a
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1946320.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 1946480.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=2710 
+ ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1946480.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 1946640.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+2006560.000ns UART:   Watchdog value set again 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2009200.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h1   
+  psel       integral      1     1     
+  pwrite     integral      1     'd0   
+  penable    integral      1     1     
+  pwdata     integral      32    'h0   
+  prdata     integral      32    'h169a
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2009600.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 2009760.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=2710 
+ ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2009760.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2009920.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+2069840.000ns UART:   Watchdog value set again 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2072480.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h1   
+  psel       integral      1     1     
+  pwrite     integral      1     'd0   
+  penable    integral      1     1     
+  pwdata     integral      32    'h0   
+  prdata     integral      32    'h169a
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2072880.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 2073040.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=2710 
+ ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2073040.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2073200.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+2133120.000ns UART:   Watchdog value set again 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2135760.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h1   
+  psel       integral      1     1     
+  pwrite     integral      1     'd0   
+  penable    integral      1     1     
+  pwdata     integral      32    'h0   
+  prdata     integral      32    'h169a
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2136160.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 2136320.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=2710 
+ ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2136320.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2136480.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+2196400.000ns UART:   Watchdog value set again 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2199040.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h1   
+  psel       integral      1     1     
+  pwrite     integral      1     'd0   
+  penable    integral      1     1     
+  pwdata     integral      32    'h0   
+  prdata     integral      32    'h169a
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2199440.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 2199600.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=2710 
+ ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2199600.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2199760.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+2259680.000ns UART:   Watchdog value set again 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2262320.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h1   
+  psel       integral      1     1     
+  pwrite     integral      1     'd0   
+  penable    integral      1     1     
+  pwdata     integral      32    'h0   
+  prdata     integral      32    'h169a
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2262720.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 2262880.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=2710 
+ ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2262880.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2263040.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+2322960.000ns UART:   Watchdog value set again 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2325600.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h1   
+  psel       integral      1     1     
+  pwrite     integral      1     'd0   
+  penable    integral      1     1     
+  pwdata     integral      32    'h0   
+  prdata     integral      32    'h169a
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2326000.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 2326160.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=2710 
+ ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2326160.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2326320.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+2386240.000ns UART:   Watchdog value set again 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2388880.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h1   
+  psel       integral      1     1     
+  pwrite     integral      1     'd0   
+  penable    integral      1     1     
+  pwdata     integral      32    'h0   
+  prdata     integral      32    'h169a
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2389280.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 2389440.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=2710 
+ ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2389440.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h2   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h2710
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2389600.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+2449520.000ns UART:   Watchdog value set again 
+2507040.000ns UART:   Unlocking watchdog... 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2509720.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 2509880.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=0, data=1388 
+ ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h0   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h1388
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2509880.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h0   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h1388
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+2555560.000ns UART:   Set to no action 
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 2558120.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=0 
+ --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2558120.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+2609200.000ns UART:   Locking watchdog... 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2611880.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+2625920.000ns UART:  
+2676680.000ns UART: - Test NMI generation 
+2734360.000ns UART:   Unlocking watchdog... 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2737040.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 2737200.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=0, data=1388 
+ ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h0   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h1388
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2737200.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h0   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h1388
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+2791880.000ns UART:   Set to NMI generation 
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 2794440.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=1 
+ --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h1  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2794440.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h1  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+2845520.000ns UART:   Locking watchdog... 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 2848200.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+3046480.000ns UART: NMI Handler Entered!  
+3059440.000ns UART:  
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 3062520.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 3062680.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h3  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h1  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 3062840.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+3119480.000ns UART:   Unlocking watchdog... 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 3122160.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 3122320.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=0, data=1388 
+ ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h0   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h1388
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 3122320.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h0   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h1388
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+3168000.000ns UART:   Set to no action 
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 3170560.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=0 
+ --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 3170560.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+3221640.000ns UART:   Locking watchdog... 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 3224320.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+3238240.000ns UART:  
+3292600.000ns UART: - Test reset generation 
+3350320.000ns UART:   Unlocking watchdog... 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 3353000.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 3353160.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=0, data=1388 
+ ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h0   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h1388
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 3353160.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] ---------------------------------------
+Name         Type          Size  Value 
+---------------------------------------
+mon_xtn      master_trans  -     @8430 
+  presetn    integral      1     1     
+  paddr      integral      9     'h0   
+  psel       integral      1     1     
+  pwrite     integral      1     1     
+  penable    integral      1     1     
+  pwdata     integral      32    'h1388
+  prdata     integral      32    'h0   
+  wdogclken  integral      1     'd0   
+  wdogresn   integral      1     'd0   
+---------------------------------------
+
+3411440.000ns UART:   Set to reset generation 
+UVM_INFO ../systemverilog/apb_wdog_timer/adapter.sv(54) @ 3414040.000ns: reporter [BUS2REG_W] adapter bus2reg write access addr=2, data=3 
+ --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h3  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 3414040.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h2  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h3  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+3465120.000ns UART:   Locking watchdog... 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 3467800.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+3666040.000ns UART: NMI Handler Entered!  
+3679000.000ns UART:  
+4014120.000ns UART:  
+4149800.000ns UART: Cortex-M3 DesignStart - Watchdog Demo - revision $Revision: 242484 $ 
+4162760.000ns UART:  
+4227960.000ns UART: Restarted by Watchdog reset 
+4278240.000ns UART: Main program part 2 
+4340640.000ns UART: - Watchdog reset completed 
+4444080.000ns UART:   SYSCON->RSTINFO = 2 
+4494200.000ns UART: - Clear reset info 
+4597360.000ns UART:   SYSCON->RSTINFO = 0 
+4681920.000ns UART: Watchdog reset performed successfully 
+4694880.000ns UART:  
+4813160.000ns UART: Testing generation of NMI using integration test register 
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 4816360.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 4816520.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1c1
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 4816680.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1c0
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h1  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 4816800.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1c0
+  psel       integral      1     1    
+  pwrite     integral      1     'd0  
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h1  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 4817240.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1c1
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h2  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 4817400.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1c1
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+4869280.000ns UART: NMI Handler Entered!  
+4882240.000ns UART:  
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 4885320.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 4885480.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h3  
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h1  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 4885640.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h100
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 4886680.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] -------------------------------------------
+Name         Type          Size  Value     
+-------------------------------------------
+mon_xtn      master_trans  -     @8430     
+  presetn    integral      1     1         
+  paddr      integral      9     'h100     
+  psel       integral      1     1         
+  pwrite     integral      1     1         
+  penable    integral      1     1         
+  pwdata     integral      32    'h1acce551
+  prdata     integral      32    'h0       
+  wdogclken  integral      1     'd0       
+  wdogresn   integral      1     'd0       
+-------------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 4886840.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1c1
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 4887760.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1c0
+  psel       integral      1     1    
+  pwrite     integral      1     1    
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+UVM_INFO ../systemverilog/apb_wdog_timer/master_agent/apb_monitor.sv(93) @ 4887880.000ns: uvm_test_top.env_h.wtenv_h.wdog_agent.monitor_h [MASTER MONITOR] --------------------------------------
+Name         Type          Size  Value
+--------------------------------------
+mon_xtn      master_trans  -     @8430
+  presetn    integral      1     1    
+  paddr      integral      9     'h1c0
+  psel       integral      1     1    
+  pwrite     integral      1     'd0  
+  penable    integral      1     1    
+  pwdata     integral      32    'h0  
+  prdata     integral      32    'h0  
+  wdogclken  integral      1     'd0  
+  wdogresn   integral      1     'd0  
+--------------------------------------
+
+4966360.000ns UART: Watchdog demo completed successfully 
+5012040.000ns UART: ** TEST PASSED **  
+5025000.000ns UART:  
+5028840.000ns UART: Test Ended
+Simulation stopped via $stop(1) at time 5028840 NS + 1
+../verilog/cmsdk_uart_capture_ard.v:240       $stop;
+ncsim> quit
+TOOL:	irun(64)	13.10-s016: Exiting on Sep 27, 2019 at 06:42:30 Local time zone must be set--see zic manual page  (total: 00:00:23)

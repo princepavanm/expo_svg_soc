@@ -1,0 +1,6 @@
+../../../../smm/logical/mps2_ahb_decoder/verilog/slave_bus_ifc.v
+../../../../smm/logical/mps2_ahb_decoder/verilog/slave_bus_ifc.vlib
+../../../../smm/logical/mps2_ahb_decoder/verilog/CORTEXM3INTEGRATIONDS.v
+../../../../smm/logical/mps2_ahb_decoder/verilog/CORTEXM3INTEGRATIONDS.vlib
+../../../../smm/logical/mps2_ahb_decoder/verilog/p_beid_peripheral_f0_static_reg.v
+../../../../smm/logical/mps2_ahb_decoder/verilog/p_beid_peripheral_f0_static_reg.vlib
