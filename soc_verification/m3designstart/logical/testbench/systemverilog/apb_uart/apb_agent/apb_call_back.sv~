@@ -1,0 +1,15 @@
+typedef class apb_driver;
+
+class driver_callback extends uvm_callback;
+
+function new(string name = "driver_callback");
+super.new(name);
+endfunction
+
+virtual task inject_err(apb_driver drv, apb_xtn trans);
+$display("=========ENTERED CALLBACK===============");
+
+trans.addr=0;
+trans.wdata=20;
+endtask
+endclass
